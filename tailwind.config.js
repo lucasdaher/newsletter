@@ -10,6 +10,7 @@ export default {
         input: "23.5rem",
         button: "23.5rem",
         "success-container": "31.5rem",
+        mobileImage: "23.4375rem",
       },
       height: {
         button: "3.5rem",
@@ -70,8 +71,8 @@ export default {
     },
 
     screens: {
-      sm: "480px",
-      md: "768px",
+      sm: "500px",
+      md: "980px",
       lg: "1024px",
     },
   },
