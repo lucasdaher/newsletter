@@ -9,7 +9,7 @@ const Image = () => {
       <img
         src={backgroundMobile}
         alt="Background Image"
-        className="flex w-mobileImage sm:hidden"
+        className="flex w-[23.4375rem] sm:hidden"
       />
       <img
         src={backgroundDesktop}
