@@ -19,7 +19,7 @@ const List = () => {
   ]);
 
   return (
-    <div className="mb-[1.5rem]">
+    <div>
       {list.map((item) => (
         <React.Fragment key={item.id}>
           <div className="flex flex-row justify-start items-center gap-[1rem] mb-[0.62rem]">
