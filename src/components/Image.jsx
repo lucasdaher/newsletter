@@ -14,7 +14,7 @@ const Image = () => {
       <img
         src={backgroundDesktop}
         alt="Background Image"
-        className="hidden sm:hidden md:hidden lg:flex w-screen h-auto lg:h-[37.06rem]"
+        className="hidden sm:hidden md:hidden lg:flex w-screen h-auto justify-end items-end lg:h-[37.06rem]"
       />
     </div>
   );

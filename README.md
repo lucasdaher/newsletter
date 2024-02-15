@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ???
-- Live Site URL: ???
+- Solution URL: [Repository](https://github.com/lucasdaher/newsletter)
+- Live Site URL: [Preview](https://lucasdahernewsletter.netlify.app/)
 
 ### Built with
 
