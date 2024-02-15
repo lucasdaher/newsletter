@@ -22,9 +22,9 @@ const List = () => {
     <div>
       {list.map((item) => (
         <React.Fragment key={item.id}>
-          <div className="flex flex-row justify-start items-center gap-[1rem] mb-[0.62rem]">
+          <div className="flex flex-row justify-start items-start gap-[1rem] mb-[0.62rem]">
             <img src={iconImg} alt="Verified Icon" />
-            <p className="text-dark-navy text-[1rem] font-regular">
+            <p className="text-darkNavy text-[1rem] font-regular w-[18.12rem] sm:w-[21.18rem]">
               {item.text}
             </p>
           </div>

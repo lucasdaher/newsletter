@@ -5,6 +5,7 @@ export default {
     extend: {
       padding: {
         1: "4rem 4rem 4rem 2.5rem",
+        2: "2.5rem 1.5rem",
       },
       fontWeight: {
         regular: "400",
@@ -29,7 +30,7 @@ export default {
     screens: {
       sm: "500px",
       md: "980px",
-      lg: "1024px",
+      lg: "1280px",
     },
   },
   plugins: [],

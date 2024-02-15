@@ -32,8 +32,8 @@ const Form = () => {
         type="text"
         className={
           errors?.email
-            ? `w-[23.5rem] h-auto py-[1rem] px-[1.5rem] rounded-[0.5rem] border-[1px] border-red text-red bg-bg-input-error placeholder:text-red/75 outline-red focus:font-regular mb-[1.5rem]`
-            : `w-[23.5rem] h-auto py-[1rem] px-[1.5rem] rounded-[0.5rem] bg-transparent border-[1px] border-gray outline-darkNavy focus:font-regular text-darkNavy mb-[1.5rem]`
+            ? `sm:w-[23.5rem] md:w-full w-full h-auto py-[1rem] px-[1.5rem] rounded-[0.5rem] border-[1px] border-red text-red bg-error placeholder:text-red/75 outline-red focus:font-regular mb-[1.5rem]`
+            : `sm:w-[23.5rem] md:w-full w-full h-auto py-[1rem] px-[1.5rem] rounded-[0.5rem] bg-transparent border-[1px] border-gray outline-darkNavy focus:font-regular text-darkNavy mb-[1.5rem]`
         }
         placeholder="email@company.com"
         {...register("email", {

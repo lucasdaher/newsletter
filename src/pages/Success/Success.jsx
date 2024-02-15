@@ -9,7 +9,7 @@ import Title from "../../components/Title";
 const Success = () => {
   useEffect(() => {
     document.body.className =
-      "bg-white flex flex-col justify-start items-center w-auto px-[1.5rem] py-[9.31rem] sm:bg-dark-navy sm:justify-center";
+      "bg-white flex flex-col justify-start items-center w-auto px-[1.5rem] py-[9.31rem] sm:bg-darkNavy sm:justify-center";
   }, []);
 
   return (
@@ -17,7 +17,7 @@ const Success = () => {
       <Verified />
       <Title text="Thanks for subscribing!" styles="mb-[1.5rem]" />
 
-      <p className="w-[20.4375rem] text-dark-navy text-[1rem] font-regular mb-[16.44rem] sm:mb-[2.5rem] sm:w-[23.5rem]">
+      <p className="w-[20.4375rem] text-darkNavy text-[1rem] font-regular mb-[16.44rem] sm:mb-[2.5rem] sm:w-[23.5rem]">
         A confirmation email has been sent to{" "}
         <span className="font-bold">ash@loremcompany.com</span>. Please open it
         and click the button inside to confirm your subscription.

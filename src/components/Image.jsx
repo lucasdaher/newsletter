@@ -9,12 +9,12 @@ const Image = () => {
       <img
         src={backgroundMobile}
         alt="Background Image"
-        className="flex w-[23.4375rem] sm:hidden"
+        className="flex justify-center items-center max-w-[480px] w-screen sm:flex md:flex lg:hidden md:w-screen"
       />
       <img
         src={backgroundDesktop}
         alt="Background Image"
-        className="hidden sm:flex"
+        className="hidden sm:hidden md:hidden lg:flex w-screen h-auto lg:h-[37.06rem]"
       />
     </div>
   );
